@@ -1,1 +1,5 @@
-__pycache__/ *.pyc *.pyo .env venv/
+# Python 캐시 파일 __pycache__/ *.pyc *.pyo *.pyd 
+# 가상환경 env/ venv/ .env .env.* # VSCode 설정 .vscode/ 
+# Visual Studio 캐시(오류 원인이었던 부분) .vs/ *.suo *.user *.userosscache *.sln.docstates 
+# OS 관련 파일 .DS_Store Thumbs.db 
+# Python 빌드/배포 파일 build/ dist/ *.egg-info/
